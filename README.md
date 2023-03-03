@@ -1,16 +1,39 @@
-### Hi there 👋
+# 👋 Hola! soy Yessica Castañeda
+### 🎓 _FullStack Developer_   
+🌎 Bogotá - **Colombia**
 
-<!--
-**ycastaneda1/ycastaneda1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Comandos Terminal
 
-Here are some ideas to get you started:
+ ✔️ ️Estos son algunos comandos aprendidos
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| Comando | Descripción | Ejemplo |
+| ------ | ------ | ------ |
+| cal | Muestra calendario del mes actual | cal | 
+| rm -r | Permite eliminar una carpeta dada una ruta | rm - r carpetaborrar|
+| touch | Crea un archivo nuevo dada una ruta y/o nombre | touch nuearch|
+| cat | imprime el contenido de un archivo dada su ruta y/o nombre |cat holamundo |
+| mv | nos permite mover un archivo o carpeta dada una ruta inicial y una final | mv holamundo /users/yess/Descargas|
+| mv | adicional a lo anterior nos permite cambiar el nombre de un archivo o carpeta | mv holamundo chaomundo |
+
+## Comandos alias útiles
+
+recomendados 📌
+
+
+
+* Findd: permitirá buscar un archivo dentro de la ruta en que se encuenetre
+
+
+```sh
+alias findd="ls ~/ | grep $1"  # siendo $1 es el primer y único parámetro  
+```
+
+> Ejemplo: findd Doc
+
+* npmd: permitirá ejecutar un script dev
+
+```sh
+alias npmd="npm run dev"
+```
+
+> Ejemplo: npmd
